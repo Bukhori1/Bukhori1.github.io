@@ -1,0 +1,63 @@
+/* Pengaturan Dasar untuk Body */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E6F3F3; [span_0](start_span)/*[span_0](end_span) */
+}
+
+/* Kontainer untuk Opsi Tambahan pada Menu */
+.options-container {
+    transition: all 0.3s ease-in-out;
+    max-height: 0; [span_1](start_span)/*[span_1](end_span) */
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Style saat Kontainer Opsi Terbuka */
+.options-container.open {
+    max-height: 500px;
+    margin-top: 1rem; [span_2](start_span)/*[span_2](end_span) */
+    padding-bottom: 1rem;
+}
+
+/* Style untuk Error Validasi pada Input */
+.validation-error {
+    border: 2px solid #ef4444 !important;
+    box-shadow: 0 0 0 2px #fecaca; [span_3](start_span)/*[span_3](end_span) */
+}
+
+/* Style untuk Item Menu yang Dipilih */
+.menu-item.selected {
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 2px #fde68a; [span_4](start_span)/*[span_4](end_span) */
+}
+
+/* Menghilangkan Tombol Panah pada Input Angka (untuk Chrome, Safari) */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; [span_5](start_span)/*[span_5](end_span) */
+}
+
+/* Menghilangkan Tombol Panah pada Input Angka (untuk Firefox) */
+input[type='number'] {
+    -moz-appearance: textfield; [span_6](start_span)/*[span_6](end_span) */
+}
+
+/* Kontainer untuk Input Kuantitas */
+.quantity-input-grid {
+    transition: all 0.3s ease-in-out;
+    max-height: 0; [span_7](start_span)/*[span_7](end_span) */
+    overflow: hidden;
+    padding: 0;
+    margin-top: 0;
+    border-width: 0;
+}
+
+/* Style saat Kontainer Input Kuantitas Terlihat */
+.quantity-input-grid.visible {
+    max-height: 100px;
+    margin-top: 0.75rem; [span_8](start_span)/*[span_8](end_span) */
+    padding: 0.25rem 0.5rem;
+    border-width: 1px; [span_9](start_span)/*[span_9](end_span) */
+}
